@@ -11,8 +11,7 @@ void main() => runApp(
           ),
           body: Center(
             child: Image(
-              image: NetworkImage(
-                  'https://www.laingsuk.com/blog/wp-content/uploads/2014/06/DIAMOND.jpg'),
+              image: AssetImage('images/diamond.png'),
             ),
           ),
         ),
